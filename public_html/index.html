@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mapa de las ideas. Salesianos|Zaragoza</title>
+		<meta name="description" content="A hover/click opaqueness background effect that makes images visible when specific points are hovered, showing some content once clicked." />
+		<meta name="keywords" content="opacity, background, hover, transparency, effect, css, html, javascript, template, point of interest, map" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<svg class="hidden">
+			<defs>
+				<symbol id="icon-arrow" viewBox="0 0 32 32">
+					<title>arrow</title>
+					<path d="M7.333 24c-0.133 0-0.4 0-0.533-0.133l-6.667-6.667c0 0-0.133-0.133-0.133-0.267s0-0.133 0-0.267c0 0 0 0 0 0 0-0.133 0-0.133 0-0.267s0.133-0.133 0.133-0.267l6.667-6.667c0.4-0.133 0.8-0.133 1.067 0s0.267 0.667 0 0.933l-5.6 5.6h29.067c0.4 0 0.667 0.267 0.667 0.667s-0.267 0.667-0.667 0.667h-29.067l5.467 5.467c0.267 0.267 0.267 0.667 0 0.933 0 0.267-0.267 0.267-0.4 0.267z"></path>
+				</symbol>
+				<symbol id="icon-drop" viewBox="0 0 32 32">
+					<title>drop</title>
+					<path d="M16,31.1c-5.5,0-10-4.5-10-10c0-5.3,9.2-19.2,9.5-19.8c0.3-0.4,0.8-0.4,1,0C16.9,1.8,26,15.8,26,21	C26,26.6,21.5,31.1,16,31.1L16,31.1z M16,2.7C14,5.8,7.2,16.8,7.2,21c0,4.9,3.9,8.8,8.8,8.8s8.8-3.9,8.8-8.8C24.8,16.8,18,5.8,16,2.7z"/><path d="M12.9,25.9c-0.1,0-0.3,0-0.4-0.1c-1.4-1.3-2.1-3-2.1-4.8c0-1.5,1.1-4.3,3.3-8.4c0.1-0.4,0.5-0.5,0.9-0.3c0.3,0.1,0.4,0.5,0.3,0.9c-2,3.8-3.1,6.5-3.1,7.8c0,1.4,0.6,2.8,1.6,3.8c0.3,0.3,0.3,0.6,0,0.9C13.2,25.8,13,25.9,12.9,25.9z"/>
+				</symbol>
+				<symbol id="icon-github" viewBox="0 0 32 32">
+					<title>github logo</title>
+					<path d="M16,2C8.1,2,1.7,8.4,1.7,16.4c0,6.3,4.1,11.7,9.8,13.6c0.7,0.1,1-0.3,1-0.7c0-0.3,0-1.2,0-2.4c-4,0.9-4.8-1.9-4.8-1.9C7,23.2,6,22.8,6,22.8c-1.3-0.9,0.1-0.9,0.1-0.9c1.4,0.1,2.2,1.5,2.2,1.5c1.3,2.2,3.4,1.6,4.2,1.2c0.1-0.9,0.5-1.6,0.9-1.9c-3.2-0.4-6.5-1.6-6.5-7.1c0-1.6,0.6-2.8,1.5-3.8C8.2,11.4,7.7,9.9,8.5,8c0,0,1.2-0.4,3.9,1.5C13.6,9.1,14.8,9,16,9c1.2,0,2.4,0.2,3.6,0.5C22.3,7.6,23.5,8,23.5,8c0.8,2,0.3,3.4,0.1,3.8c0.9,1,1.5,2.3,1.5,3.8c0,5.5-3.3,6.7-6.5,7.1c0.5,0.4,1,1.3,1,2.7c0,1.9,0,3.5,0,3.9c0,0.4,0.3,0.8,1,0.7c5.7-1.9,9.8-7.3,9.8-13.6C30.3,8.4,23.9,2,16,2z"/>
+				</symbol>
+			</defs>
+		</svg>
+		<main>
+			<header class="codrops-header">
+				<div class="codrops-links">
+					<a class="codrops-icon codrops-icon--prev" href="file:///Users/lara/Desktop/InteractivePoints/index.html" title="Pagina de Salesianos"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+					<a class="codrops-icon codrops-icon--drop" href="http://innovacion.educa.aragon.es/wiki/Centro:CPRI-INPRISE_NTRA._SRA._DEL_PILAR" title="Innovación en Aragón"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
+				</div>
+				<h1 class="codrops-header__title">Mapa de nuevas ideas</h1>
+				<p class="codrops-header__tagline">Salesianos|Zaragoza</p>
+				<a class="icon-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfJE4Z520oDOjzfdBDKp4vviYjqC2lQzVlS1_30mZlB4VMS4g/viewform" title="Aporta nuevas ideas"><span class="icon-text">💡 Si tu idea no está, envíala aquí</span></a></a>
+			</header>
+			<p class="message">Le recomendamos que examine el mapa en una pantalla mayor</p>
+			<section class="interactive-points" id="interactive-1" tabindex="0">
+				<img class="static" src="img/map.png" alt="Mapa de las ideas" />
+				<div class="backgrounds">
+					<div class="background__element" style="background-image: url(img/1.jpg)"></div>
+					<div class="background__element" style="background-image: url(img/2.jpg)"></div>
+					<div class="background__element" style="background-image: url(img/3.jpg)"></div>
+					<div class="background__element" style="background-image: url(img/4.jpg)"></div>
+					<div class="background__element" style="background-image: url(img/5.jpg)"></div>
+					<div class="background__element" style="background-image: url(img/6.jpg)"></div>
+				</div>
+				<svg class="points" viewBox="20 0 1885 1080" width="100%" height="100%">
+					//Infantil
+					<path class="point" d="M 20 940L 50 940 L 35 970 z"/>
+					<path class="point" d="M 70 940L 100 940 L 85 970 z"/>
+					//Primaria
+					<path class="point" d="M 220 940L 250 940 L 235 970 z"/>
+					<path class="point" d="M 270 940L 300 940 L 285 970 z"/>
+					//Secundaria
+					<path class="point" d="M 620 940L 650 940 L 635 970 z"/>
+					<path class="point" d="M 670 940L 700 940 L 685 970 z"/>
+					//Bachillerato
+					<path class="point" d="M 1100 940L 1130 940 L 1115 970 z"/>
+					<path class="point" d="M 1150 940L 1180 940 L 1165 970 z"/>
+					//FP básica
+					<path class="point" d="M 620 80L 650 80 L 635 110 z"/>
+					<path class="point" d="M 670 80L 700 80 L 685 110 z"/>
+					<path class="point" d="M 720 80L 750 80 L 735 110 z"/>
+					<path class="point" d="M 770 80L 800 80 L 785 110 z"/>
+					//FP GM
+					//FP GS
+					//OTROS
+				</svg>
+				<div class="points-tooltips">
+					<!--Infantil -->
+
+					<!--Primaria -->
+					<div class="point-tooltip"><h2 class="point-tooltip__title">Tu me ayudas, yo te ayudo</h2><br><p class="point-tooltip__description">APS de los alumnos de bachillerato a los alumnos de primaria con dificultades en el inglés</p></div>
+					<div class="point-tooltip"><h2 class="point-tooltip__title">Taller de experiencias</h2><br><p class="point-tooltip__description">Identificar un problema para resolverlo mediante un proyecto</p></div>
+					<!--Secundaria-->
+					<div class="point-tooltip"><h2 class="point-tooltip__title">Avanzando juntos hacia nuestros orígenes</h2><br><p class="point-tooltip__description">Viajes y narrativa popular en una perspectiva multidisciplinar</p></div>
+					<div class="point-tooltip"><h2 class="point-tooltip__title">NanoMartes</h2><br><p class="point-tooltip__description">Maletín con recursos del Instituto de Nanociencia de Aragón.</p></div>
+					<!--Bachillerato-->
+					<div class="point-tooltip"><h2 class="point-tooltip__title">Participación en la elaboración de prácticas</h2><br><p class="point-tooltip__description">Grupos de alumnos de 1º de bachillerato colaboran en preparar las prácticas </p></div>
+					<div class="point-tooltip"><h2 class="point-tooltip__title">Auditoría de accesibilidad</h2><br><p class="point-tooltip__description">Hacer del colegio un lugar más accesible</p></div>
+				</div>
+				<div class="points-content">
+					<!--Primaria -->
+					<div class="point-content">
+						<h3 class="point-content__title">Tu me ayudas, yo te ayudo</h3>
+						<p class="point-content__subtitle">APS alumnos de bachillerato a los alumnos de primaria</p>
+						<p class="point-content__text">Los alumnos de infantil y primaria mejoran su competencia lingüística en inglés gracias a la labor de alumnos de bachillerato, que realizan un Aprendizaje Servicio dentro de la asignatura de Inglés.</p>
+					</div>
+					<div class="point-content">
+						<h3 class="point-content__title">Taller de experiencias</h3>
+						<p class="point-content__subtitle">Identificar un problema para resolverlo mediante un proyecto</p>
+						<p class="point-content__text">Un taller en el que los alumnos investigan libremente sobre proyectos que ellos mismos proponen</p>
+					</div>
+					<!--Secundaria-->
+					<div class="point-content">
+						<h3 class="point-content__title">Avanzando juntos hacia nuestros orígenes</h3>
+						<p class="point-content__subtitle">Viajes y narrativa popular desde una perspectiva multidisciplinar</p>
+						<p class="point-content__text">Proyecto interdisciplinar en el que a través de la narrativa popular se trabajan conceptos de diferentes asignaturas con los alumnos de 3º ESO</p>
+					</div>
+					<div class="point-content">
+						<h3 class="point-content__title">Nanomartes</h3>
+						<p class="point-content__subtitle">Nanotecnología en una maleta</p>
+						<p class="point-content__text">Maletín con recursos del Instituto de Nanociencia de Aragón que se utilizarán en el aula para acercar a los chavales a esta rama de la ciencia y la tecnología de una manera participativa y dinámica.</p>
+					</div>
+					<!--Bachillerato-->
+					<div class="point-content">
+						<h3 class="point-content__title">Participación en la elaboración de prácticas</h3>
+						<p class="point-content__subtitle">APS alumnos de bachillerato a sus compañeros</p>
+						<p class="point-content__text">Grupos de alumnos de 1º de bachillerato colaboran en preparar las prácticas de sus compañeros de BAC y de otras secciones.</p>
+					</div>
+					<div class="point-content">
+						<h3 class="point-content__title">Auditoría de accesibilidad</h3>
+						<p class="point-content__subtitle">Hacer del colegio un lugar más accesible</p>
+						<p class="point-content__text">Los alumnos de 1ºT realizan una serie de recorridos a lo largo del colegio simulando tener una cierta discapacidad. Con las conclusiones se realiza un informe técnico sugiriendo mejoras que faciliten la accesibilidad a personas con discapacidad.</p>
+					</div>
+				</div>
+				<a class="pater" href="http://zaragoza.salesianos.edu/" rel="nofollow">
+					<img class="pater__img" src="img/Logo_png.png" alt="Logo"/>
+					<h3 class="pater__title">Todos los días surgen nuevas ideas en las aulas</h3>
+					<p class="pater__description">Nuevas formas de hacer las cosas, pequeños detalles que, unidos, pueden formar grandes proyectos. Nos gustaría que no se perdiese ninguna <strong>Envíanos tus ideas</strong></p>
+				</a>
+			</section>
+			<a class="pater pater--responsive" href="http://zaragoza.salesianos.edu/" rel="nofollow">
+				<img class="pater__img" src="img/Logo_png.png" alt="Logo"/>
+				<h3 class="pater__title">Todos los días surgen nuevas ideas en las aulas</h3>
+				<p class="pater__description">Nuevas formas de hacer las cosas, pequeños detalles que, unidos, pueden formar grandes proyectos. Nos gustaría que no se perdiese ninguno <strong>Envíanos tus ideas</strong></p>
+			</a>
+			<section class="content">
+				<div class="content__inner">
+					<h2 class="content__title">Nuevos puntos de vista para entender los colegios</h2> 
+					<h3 class="content__subtitle">¿De dónde surgen las nuevas ideas? Un colegio es como un río por el que contínuamente fluye una corriente de nuevos alumnos con sus problemas e inquietudes con su particular forma de ver el mundo. La principal fuente de inspiración deberían ser los propios alumnos, que hacen nuevo lo viejo, que convierten en actuales nuestras viejas escuelas. Por ello ubicamos las nuevas ideas en esta corriente tumultuosa de niños jóvenes, pues es en ellos donde nacen los nuevos conceptos</p>
+					<p class="margin-paragraph"><strong>The following example shows some different configuration options:</strong></p>
+				</div>
+			</section>
+			<section class="interactive-points interactive-points--alter" id="interactive-2" tabindex="0">
+				<img class="static" src="img/map.png" alt="Map of London" />
+				<div class="backgrounds">
+					<div class="background__element" style="background-image: url(img/1.jpg)"></div>
+					<div class="background__element" style="background-image: url(img/2.jpg)"></div>
+					<div class="background__element" style="background-image: url(img/3.jpg)"></div>
+					<div class="background__element" style="background-image: url(img/4.jpg)"></div>
+					<div class="background__element" style="background-image: url(img/5.jpg)"></div>
+					<div class="background__element" style="background-image: url(img/6.jpg)"></div>
+				</div>
+				<svg class="points" viewBox="0 0 1885 1080" width="100%" height="100%">
+					<path class="point" d="M 100 100 L 300 100 L 200 300 z"/>
+					<path class="point" d="M1069.3,589.7L1069.3,589.7c-7.1-7.1-18.6-7.1-25.7,0l0,0c-6.4,6.4-7.1,18.4-1.7,25.7l14.5,21l14.5-21C1076.4,608.2,1075.7,596.1,1069.3,589.7z"/>
+					<path class="point" d="M1533.8,114.2L1533.8,114.2c-7.1-7.1-18.6-7.1-25.7,0l0,0c-6.4,6.4-7.1,18.4-1.7,25.7l14.5,21l14.5-21C1541,132.6,1540.2,120.6,1533.8,114.2z"/>
+					<path class="point" d="M878.9,247.4L878.9,247.4c-7.1-7.1-18.6-7.1-25.7,0l0,0c-6.4,6.4-7.1,18.4-1.7,25.7l14.5,21l14.5-21C886,265.8,885.3,253.8,878.9,247.4z"/>
+					<path class="point" d="M615.2,658.3L615.2,658.3c-7.1-7.1-18.6-7.1-25.7,0l0,0c-6.4,6.4-7.1,18.4-1.7,25.7l14.5,21l14.5-21C622.3,676.8,621.6,664.7,615.2,658.3z"/>
+					<path class="point" d="M183.5,524L183.5,524c-7.1-7.1-18.6-7.1-25.7,0l0,0c-6.4,6.4-7.1,18.4-1.7,25.7l14.5,21l14.5-21C190.6,542.5,189.9,530.4,183.5,524z"/>
+				</svg>
+				<div class="points-tooltips">
+					<div class="point-tooltip"><h2 class="point-tooltip__title">Rupert Street</h2><br><p class="point-tooltip__description">The connection to London Bridge that no one knew about</p></div>
+					<div class="point-tooltip"><h2 class="point-tooltip__title">Swiss Court</h2><br><p class="point-tooltip__description">The crazy story of a rebel</p></div>
+					<div class="point-tooltip"><h2 class="point-tooltip__title">Bear Street</h2><br><p class="point-tooltip__description">Hidden gems and stories</p></div>
+					<div class="point-tooltip"><h2 class="point-tooltip__title">Leicester Square</h2><br><p class="point-tooltip__description">A never ending love story</p></div>
+					<div class="point-tooltip"><h2 class="point-tooltip__title">Oxendon Street</h2><br><p class="point-tooltip__description">No need to panik, rescue is close</p></div>
+					<div class="point-tooltip"><h2 class="point-tooltip__title">Haymarket</h2><br><p class="point-tooltip__description">Adventures to be discovered</p></div>
+				</div>
+				<div class="points-content">
+					<div class="point-content">
+						<h3 class="point-content__title">Tu me ayudas, yo te ayudo</h3>
+						<p class="point-content__subtitle">APS alumnos de bachillerato a los alumnos de primaria</p>
+						<p class="point-content__text">Los alumnos de infantil y primaria mejoran su competencia lingüística en inglés gracias a la labor de alumnos de bachillerato, que realizan un Aprendizaje Servicio dentro de la asignatura de Inglés.</p>
+					</div>
+					<div class="point-content">
+						<h3 class="point-content__title">Taller de experriencias/h3>
+						<p class="point-content__subtitle">Identificar un problema para resolverlo mediante un proyecto</p>
+						<p class="point-content__text">Los alumnos proponen temas, investigan y buscan respuestas</p>
+					</div>
+					<div class="point-content">
+						<h3 class="point-content__title">Hiding in Bear Street</h3>
+						<p class="point-content__subtitle">19<sup>th</sup> of July, 1927</p>
+						<p class="point-content__text">From which we spring the ash of stellar alchemy from which we spring emerged into consciousness, great turbulent clouds rich in heavy atoms. </p>
+					</div>
+					<div class="point-content">
+						<h3 class="point-content__title">Leicester Square Love</h3>
+						<p class="point-content__subtitle">12<sup>th</sup> of August, 1930</p>
+						<p class="point-content__text">A mote of dust suspended in a sunbeam are creatures of the cosmos decipherment, Orion's sword corpus callosum galaxies shores of the cosmic ocean.</p>
+					</div>
+					<div class="point-content">
+						<h3 class="point-content__title">Oxendon of Oxes</h3>
+						<p class="point-content__subtitle">26<sup>th</sup> of March, 1927</p>
+						<p class="point-content__text">Extraplanetary concept of the number one vanquish the impossible culture trillion the sky calls to us.</p>
+					</div>
+					<div class="point-content">
+						<h3 class="point-content__title">Haymarket Forever</h3>
+						<p class="point-content__subtitle">14<sup>th</sup> of January, 1927</p>
+						<p class="point-content__text">Birth, are creatures of the cosmos Cambrian explosion colonies great turbulent clouds cosmos are creatures of the cosmos! Great turbulent clouds.</p>
+					</div>
+				</div>
+			</section>
+			<!-- Related demos -->
+			<section class="content content--related">
+				<p><strong>Leyenda <a href="https://www.flickr.com/photos/stockholmtransportmuseum_commons/albums/72157627860632062">Tipo de innovación</a></strong></p>
+					
+					<p>Filler text from <a href="http://saganipsum.com/">Sagan Ipsum</a></p>
+				<p>Si te ha gustado el proyecto o te gustaría enviarnos sugerencias, hazlo</p>
+				<a class="media-item" href="mailto:antonio.lopez@salesianos.edu" >
+					<img class="media-item__img" src="img/related/TooltipStylesInspiration.png">
+					<h3 class="media-item__title">Tooltip Styles Inspiration</h3>
+				</a>
+				<a class="media-item" href="http://tympanus.net/Development/ImageTiltEffect/">
+					<img class="media-item__img" src="img/related/ImageTiltEffect.jpg">
+					<h3 class="media-item__title">Image Tilt Effect</h3>
+				</a>
+			</section>
+		</main>
+		<script src="js/lunar.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+		(function() {
+			new PointsMap(document.querySelector('#interactive-1'));
+			new PointsMap(document.querySelector('#interactive-2'), {
+				// Maximum opacity that the background element of a Point can have when the point is active (mouse gets closer to it).
+				maxOpacityOnActive : 1,
+				// When the mouse is [activeOn]px away from one point, its image gets opacity = point.options.maxOpacity.
+				activeOn : 90
+			});
+		})();
+		</script>
+	</body>
+</html>
