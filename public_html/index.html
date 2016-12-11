@@ -56,26 +56,63 @@
 					<div class="background__element" style="background-image: url(img/6.jpg)"></div>
 				</div>
 				<svg class="points" viewBox="20 0 1885 1080" width="100%" height="100%">
+					
+
 					//Infantil
+					<text x="25" y="880" fill=#93c47d>Infantil</text>
+					<rect x="25" y="890" width="180" height="100" style="fill: green;stroke-width:3;stroke:#93c47d;fill-opacity:0.1; stroke-opacity:0.5" />
+					<circle class="point" cx="50" cy="910" r="10" title="A"/>
+					
+
 					<path class="point" d="M 20 940L 50 940 L 35 970 z"/>
 					<path class="point" d="M 70 940L 100 940 L 85 970 z"/>
 					//Primaria
+					<text x="325" y="880" fill=#f1c232>Primaria</text>
+					<rect x="325" y="890" width="180" height="100" style="fill: yellow;stroke-width:3;stroke:#f1c232;fill-opacity:0.1; stroke-opacity:0.5" />
+
 					<path class="point" d="M 220 940L 250 940 L 235 970 z"/>
 					<path class="point" d="M 270 940L 300 940 L 285 970 z"/>
 					//Secundaria
+					<text x="700" y="880" fill=#6d9eeb>Secundaria</text>
+					<rect x="700" y="890" width="180" height="100" style="fill: blue;stroke-width:3;stroke:#6d9eeb;fill-opacity:0.1; stroke-opacity:0.5" />
+
 					<path class="point" d="M 620 940L 650 940 L 635 970 z"/>
 					<path class="point" d="M 670 940L 700 940 L 685 970 z"/>
 					//Bachillerato
+					<text x="1200" y="880" fill=#8e7cc3>Bachillerato</text>
+					<rect x="1200" y="890" width="180" height="100" style="fill: purple;stroke-width:3;stroke:#8e7cc3;fill-opacity:0.1; stroke-opacity:0.5" />
+
 					<path class="point" d="M 1100 940L 1130 940 L 1115 970 z"/>
 					<path class="point" d="M 1150 940L 1180 940 L 1165 970 z"/>
 					//FP básica
+					<text x="700" y="60" fill=#00ff00>FP básica</text>
+					<rect x="700" y="70" width="180" height="100" style="fill: green;stroke-width:3;stroke:#00ff00;fill-opacity:0.1; stroke-opacity:0.5" />
+
 					<path class="point" d="M 620 80L 650 80 L 635 110 z"/>
 					<path class="point" d="M 670 80L 700 80 L 685 110 z"/>
 					<path class="point" d="M 720 80L 750 80 L 735 110 z"/>
 					<path class="point" d="M 770 80L 800 80 L 785 110 z"/>
+					 <!--animate attributeType="CSS" attributeName="opacity" from="0.7" to="0.5" dur="0.5s" repeatCount="indefinite" />-->
 					//FP GM
+					<text x="1200" y="60" fill=#cc0000>FP Grados Medios</text>
+					<rect x="1200" y="70" width="180" height="100" style="fill: red;stroke-width:3;stroke:#cc0000;fill-opacity:0.1; stroke-opacity:0.5" />
+
 					//FP GS
+					<text x="1700" y="60" fill=#f1c232>FP Grados Superiores</text>
+					<rect x="1700" y="70" width="180" height="100" style="fill: yellow;stroke-width:3;stroke:#f1c232;fill-opacity:0.1; stroke-opacity:0.5" />
+
 					//OTROS
+					//Leyenda
+					<circle class="point" cx="35" cy="400" r="10" style="fill:blue;stroke:black;stroke-width:3;opacity:0.3"/>
+					<text x="60" y="405" fill=#93c47d>metodológica</text>
+					<rect class="point" x="25" y="425" width="20" height="20" style="fill:pink;stroke:black;stroke-width:3;opacity:0.3"/>
+					<text x="60" y="440" fill=#93c47d>contenidos</text>
+					<path class="point" d="M 25 460L 45 460 L 35 480 z"/>
+					<text x="60" y="475" fill=#93c47d>organización</text>
+					<rect class="point" x="25" y="495" rx="6" ry="6" width="20" height="20" style="fill:red;stroke:black;stroke-width:3;opacity:0.5"/>
+					<text x="60" y="510" fill=#93c47d>espacios</text>
+					<path d="M 25 530L 45 530L 40 550L 30 550z" style="fill:yellow;stroke:black;stroke-width:3;opacity:0.5"/>
+					<text x="60" y="545" fill=#93c47d>otras</text>
 				</svg>
 				<div class="points-tooltips">
 					<!--Infantil -->
@@ -125,23 +162,35 @@
 						<p class="point-content__text">Los alumnos de 1ºT realizan una serie de recorridos a lo largo del colegio simulando tener una cierta discapacidad. Con las conclusiones se realiza un informe técnico sugiriendo mejoras que faciliten la accesibilidad a personas con discapacidad.</p>
 					</div>
 				</div>
-				<a class="pater" href="http://zaragoza.salesianos.edu/" rel="nofollow">
-					<img class="pater__img" src="img/Logo_png.png" alt="Logo"/>
-					<h3 class="pater__title">Todos los días surgen nuevas ideas en las aulas</h3>
-					<p class="pater__description">Nuevas formas de hacer las cosas, pequeños detalles que, unidos, pueden formar grandes proyectos. Nos gustaría que no se perdiese ninguna <strong>Envíanos tus ideas</strong></p>
+				<!--a class="pater" href="http://zaragoza.salesianos.edu/" rel="nofollow">
+					<!--iclass="pater__img" src="img/Logo_png.png" alt="Logo"/>>
+					<h3 class="pater__title">Tipo de innovación</h3>
+					<svg class="points">
+						<circle class="point" cx="10" cy="100" r="10" title="A"/>
+						<text x="35" y="100" fill=#93c47d>Metodológica</text>
+						<path class="point" d="M 10 140L 40 140 L 25 170 z"/>
+						<text x="35" y="140" fill=#93c47d>Contenidos</text>
+					</svg>
 				</a>
 			</section>
-			<a class="pater pater--responsive" href="http://zaragoza.salesianos.edu/" rel="nofollow">
-				<img class="pater__img" src="img/Logo_png.png" alt="Logo"/>
-				<h3 class="pater__title">Todos los días surgen nuevas ideas en las aulas</h3>
-				<p class="pater__description">Nuevas formas de hacer las cosas, pequeños detalles que, unidos, pueden formar grandes proyectos. Nos gustaría que no se perdiese ninguno <strong>Envíanos tus ideas</strong></p>
-			</a>
+			<!--a class="pater pater--responsive" href="http://zaragoza.salesianos.edu/" rel="nofollow">
+				<!--img class="pater__img" src="img/Logo_png.png" alt="Logo"/>-->
+				<!--h3 class="pater__title">Leyenda</h3>
+				<svg class="points" height="1000">
+					<rect x="25" y="890" width="180" height="100" style="fill: green;stroke-width:3;stroke:#93c47d;fill-opacity:0.1; stroke-opacity:0.5" />
+					<circle class="point" cx="50" cy="910" r="10" title="A"/>
+				</svg>
+			</a-->
 			<section class="content">
+
 				<div class="content__inner">
 					<h2 class="content__title">Nuevos puntos de vista para entender los colegios</h2> 
+
+
 					<h3 class="content__subtitle">¿De dónde surgen las nuevas ideas? Un colegio es como un río por el que contínuamente fluye una corriente de nuevos alumnos con sus problemas e inquietudes con su particular forma de ver el mundo. La principal fuente de inspiración deberían ser los propios alumnos, que hacen nuevo lo viejo, que convierten en actuales nuestras viejas escuelas. Por ello ubicamos las nuevas ideas en esta corriente tumultuosa de niños jóvenes, pues es en ellos donde nacen los nuevos conceptos</p>
 					<p class="margin-paragraph"><strong>The following example shows some different configuration options:</strong></p>
 				</div>
+
 			</section>
 			<section class="interactive-points interactive-points--alter" id="interactive-2" tabindex="0">
 				<img class="static" src="img/map.png" alt="Map of London" />
